@@ -1,12 +1,12 @@
 require "sinatra"
+require "sinatra/base"
 require "sinatra/reloader"
 require "sinatra/activerecord"
-require "sinatra/base"
 require "active_record"
 require "uri"
-require "haml"
 require "bundler/setup"
 require "logger"
+require "yaml"
 
 # App
 #require helpers.rb
